@@ -131,7 +131,7 @@ async def async_setup_entry(hass, config_entry, async_add_entities):
                         )
                     ]
                 )
-            elif model in ("TP2X_DA-KS-RANGE-0101X",):
+            elif model in ("TP2X_DA-KS-RANGE-0101X", "LCD_R18_OV_QMD_EU_22K", "LCD_R18_SCO_QMD_EU_22K",):
                 switches.extend(
                     [
                         SamsungOcfSwitch(
